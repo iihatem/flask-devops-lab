@@ -49,6 +49,15 @@ def report():
     })
 
 
+@app.get('/api/version')
+def version():
+    cfg = load_config()
+    return jsonify({
+        'app_name': cfg['app_name'],
+        'version': cfg['version']
+    })
+
+
 if __name__ == '__main__':
     app.run(
         host='0.0.0.0',
