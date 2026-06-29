@@ -1,4 +1,4 @@
-# Flask DevOps Lab (Version A: Diagnostic Toolkit)
+# Flask DevOps Lab — Diagnostic & DevOps Practice App
 
 A small Flask diagnostic app used to practice Git, GitHub, and Docker workflows.
 
